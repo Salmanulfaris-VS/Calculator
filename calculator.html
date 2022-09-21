@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="main-page">
+   
+        <h1><i><u>Calculator</u></i></h1>
+     <div class="calculator">
+
+     <div id="output">
+        <input id="display" type="text">
+     </div>
+     <div class="row">
+    <button class="btns" onclick="buttonclicks(7)">7</button>
+    <button class="btns" onclick="buttonclicks(8)">8</button>
+    <button class="btns" onclick="buttonclicks(9)">9</button>
+    <button class="btns" onclick="buttonclicks('/')">/</button>
+</div>
+<div class="row">
+
+    <button class="btns" onclick ="buttonclicks(4)">4</button>
+    <button class="btns" onclick="buttonclicks(5)">5</button>
+    <button class="btns" onclick="buttonclicks(6)">6</button>
+    <button class="btns" onclick="buttonclicks('*')">X</button>
+
+</div>
+
+<div class="row">
+
+    <button class="btns" onclick="buttonclicks(1)">1</button>
+    <button class="btns" onclick="buttonclicks(2)">2</button>
+    <button class="btns" onclick="buttonclicks(3)">3</button>
+    <button class="btns" onclick="buttonclicks('-')">-</button>
+
+</div>
+
+<div class="row">
+
+    <button class="btns" onclick="buttonclicks('.')">.</button>
+    <button class="btns" onclick="buttonclicks(0)">0</button>
+    <button onclick="equalClick()" class="btns">=</button>
+    <button class="btns" onclick="buttonclicks('+')">+</button>
+
+</div>
+<div class="row">
+    <button onclick="cleardisplay()" class="btns">C</button>
+</div>
+</div>
+</body>
+</html>
